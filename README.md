@@ -211,3 +211,5 @@ SQLite is currently used as the storage engine but can be replaced with another 
 ---
 
 # [Demo](https://youtu.be/jb9vZLLzAJ4) — Part 4 (last)
+
+# [Portfolio](https://krzysztofzakrzewski.github.io/portfolio)
