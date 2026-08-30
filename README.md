@@ -84,83 +84,44 @@ Each layer is responsible for a single part of the application, making the proje
 
 ```text
 Image Upload
-
       │
-
       ▼
-
 Image Preprocessing
-
       │
-
       ▼
-
 OCR Text Extraction
-
       │
-
       ▼
-
 Invoice Section Parsing
-
       │
-
       ├─────────────────────┐
-
       ▼                     ▼
-
 Customer Extraction     Product Line Extraction
-
       │                     │
-
       ▼                     ▼
-
 Customer Matching       Text Cleaning
-
       │                     │
-
       │                     ▼
-
       │                Product Extraction
-
       │                     │
-
       │                     ▼
-
       │                Product Matching
-
       │                     │
-
       └──────────┬──────────┘
-
                  ▼
-
           ETL Transformation
-
                  │
-
         ┌────────┴────────┐
-
         ▼                 ▼
-
  Inventory Update    Order Creation
-
-                          │
-
-                          ▼
-
+        │                 │
+        ▼                 ▼
                      Order Items
-
         └────────┬────────┘
-
                  ▼
-
           SQLite Database
-
                  │
-
                  ▼
-
         Streamlit Interface
 ```
 
